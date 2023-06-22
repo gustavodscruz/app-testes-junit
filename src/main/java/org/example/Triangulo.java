@@ -12,7 +12,7 @@ public class Triangulo {
         this.altura = altura;
     }
 
-    @Test
+  
     public double calcularArea(){
         return(base * altura)/2;
 
