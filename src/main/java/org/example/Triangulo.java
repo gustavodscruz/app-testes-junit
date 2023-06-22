@@ -1,14 +1,13 @@
 package org.example;
-import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.Scanner;
 
-public class Triângulo {
-    private double base = 10;
-    private double altura = 5;
+public class Triangulo {
+    private double base;
+    private double altura ;
 
-    public Triângulo(double base, double altura) {
+    public Triangulo(double base, double altura) {
         this.base = base;
         this.altura = altura;
     }
@@ -23,10 +22,7 @@ public class Triângulo {
         double base = 10.00;
         double altura = 5;
 
-        Triângulo tri1 = new Triângulo(base, altura);
-
-
-
+        Triangulo tri1 = new Triangulo(base, altura);
         System.out.println(tri1.calcularArea());
 
 
